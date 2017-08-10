@@ -1,0 +1,58 @@
+{
+  "project_info": {
+    "project_number": "68928968243",
+    "firebase_url": "https://picassoimageupload-4fcc2.firebaseio.com",
+    "project_id": "picassoimageupload-4fcc2",
+    "storage_bucket": "picassoimageupload-4fcc2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:68928968243:android:670c41215ab9621e",
+        "android_client_info": {
+          "package_name": "com.example.admin.picassoimageupload"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "68928968243-ut1a4ndnch6eseul5i1tta978re8g2ij.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.admin.picassoimageupload",
+            "certificate_hash": "15dd3df73d35664d19933faba6d7bce1ae649e08"
+          }
+        },
+        {
+          "client_id": "68928968243-3319bmlniuhfqs8j7rc2got3vptdtn5o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBLM8SLFg8GTeU19oEO-lMaKIP0SjvnuhM"
+        },
+        {
+          "current_key": "AIzaSyB3wAsnYr1QhKNKADMFM7BpThI37a2XSds"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "68928968243-3319bmlniuhfqs8j7rc2got3vptdtn5o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

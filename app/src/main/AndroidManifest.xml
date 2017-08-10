@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.admin.picassoimageupload">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Soweto Tour Guide"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".FirstScreenActivity">
+            // MainActivity
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".SecondScreenActivity" />
+         <!--<activity android:name=".MainActivity" />-->
+        <activity android:name=".Main2Activity"/>
+
+        <!--<activity android:name=".HistoryAdmin" />-->
+        <activity android:name=".HistoryActivity" />
+        <activity android:name=".ExcursionsActivity" />
+        <!--<activity android:name=".ExcursionsAdmin" />-->
+        <activity android:name=".AccommodationActivity" />
+        <!--<activity android:name=".AccommodationAdmin" />-->
+        <activity android:name=".NightlifeActivity" />
+        <!--<activity android:name=".NightlifeAdmin" />-->
+        <activity android:name=".ArtActivity" />
+        <activity android:name=".ArtAdmin" />
+        <!--<activity android:name=".DescriptionAdmin" />-->
+        <activity android:name=".DescriptionActivity"></activity>
+    </application>
+
+</manifest>

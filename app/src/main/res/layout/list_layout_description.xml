@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <TextView
+        android:text="Title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewTitle"
+        android:layout_marginTop="20dp"
+        android:textStyle="normal|bold"
+        android:textSize="30sp"
+        android:textColor="@android:color/black"
+        android:textAlignment="center"  />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/EditTextAddress"
+        android:layout_marginTop="10dp"
+        android:hint="enter address" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/EditTextHours"
+        android:layout_marginTop="10dp"
+        android:hint="enter trading hours" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/EditTextPhone"
+        android:layout_marginTop="10dp"
+        android:hint="enter contact details" />
+
+    <RatingBar
+        android:max="5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ratingBar"
+        android:layout_marginTop="20dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:id="@+id/EditTextDescription"
+        android:layout_marginTop="10dp"
+        android:hint="enter description" />
+
+    <ImageButton
+        android:layout_width="366dp"
+        android:layout_height="100dp"
+        app:srcCompat="@android:color/black"
+        android:id="@+id/ImageButton"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.13"
+        android:scaleType="centerCrop"
+        />
+
+</LinearLayout>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_description"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.admin.picassoimageupload.DescriptionActivity">
+
+    <TextView
+        android:text="Title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:id="@+id/textView"
+        android:textSize="30sp"
+        android:textColor="@android:color/black"
+        android:textStyle="normal|bold" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="5dp"
+        android:id="@+id/TextViewtAddress"
+        android:text="Name:"
+        android:textSize="18sp"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:layout_below="@+id/editTextAddress"
+        android:layout_alignRight="@+id/editTextAddress"
+        android:layout_marginBottom="5dp"
+        android:layout_alignEnd="@+id/editTextAddress"
+        android:id="@+id/TextViewHours"
+        android:hint="enter hours"
+        android:text="Hours:"
+        android:textSize="18sp"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:layout_below="@+id/editTextHours"
+        android:layout_alignRight="@+id/editTextHours"
+        android:layout_alignEnd="@+id/editTextHours"
+        android:id="@+id/TextViewPhone"
+        android:layout_marginBottom="5dp"
+        android:text="Phone:"
+        android:textSize="18sp"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:text="Rating"
+        android:id="@+id/rating"
+        android:textSize="18sp"
+        android:textColor="@android:color/black"
+        android:layout_below="@+id/editTextPhone"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+
+
+    <RatingBar
+        android:max="5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ratingBar2"
+        android:layout_below="@+id/rating"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:ems="10"
+        android:id="@+id/TextViewDescription"
+        android:text="Description:"
+        android:layout_marginTop="50dp"
+        android:layout_below="@+id/ratingBar2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textSize="18sp"
+        android:textColor="@android:color/black" />
+
+
+
+    <ImageButton
+        android:id="@+id/ImageButtonDescription"
+        android:layout_width="332dp"
+        android:layout_height="95dp"
+        android:scaleType="center"
+        android:layout_gravity="center"
+        android:background="@android:color/black"
+        android:layout_marginBottom="10dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        />
+
+
+</LinearLayout>

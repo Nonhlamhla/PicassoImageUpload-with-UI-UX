@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewName"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="5dp"
+        android:textSize="24sp"
+        android:textColor="@android:color/black"
+        android:textStyle="normal|bold" />
+
+    <ImageView
+        android:layout_width="359dp"
+        android:layout_height="130dp"
+        android:padding="5dp"
+        android:layout_gravity="center_horizontal"
+        android:elevation="0dp"
+        app:srcCompat="@android:color/darker_gray"
+        android:scaleType="centerCrop"
+        android:id="@+id/imageViewUrl"
+        android:layout_weight="0.05" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewLocation"
+        android:textSize="14sp"
+        android:layout_marginTop="10dp"
+        android:textColor="@android:color/black"
+        android:textStyle="normal|bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="20">
+
+        <ImageButton
+            android:layout_width="137dp"
+            android:layout_height="40dp"
+            android:id="@+id/ImageButtonView"
+           android:src="@drawable/view"
+            android:background="@android:color/transparent" />
+
+        <!--android:src="@drawable/view3"-->
+        <!--android:background="@android:color/transparent"-->
+
+        <ImageButton
+            android:text="Share"
+            android:layout_width="177dp"
+            android:layout_height="40dp"
+            android:id="@+id/ImageButtonShare"
+            android:src="@drawable/share0"
+            android:background="@android:color/transparent" />
+
+        <!--android:src="@drawable/share0"-->
+        <!--android:background="@android:color/transparent"-->
+
+    </LinearLayout>
+
+</LinearLayout>
